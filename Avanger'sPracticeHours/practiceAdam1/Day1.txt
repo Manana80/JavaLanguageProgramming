@@ -1,0 +1,42 @@
+        1. Type Casting
+        2. String Practices
+
+
+        1. Type Casting
+        a. Implicit Casting
+          - Done by compiler.
+          - Smaller to bigger data type
+          - No loss in data
+
+        b. Explicit Casting
+         -  Done by developers
+         - Bigger to smaller
+         - we can have data loss
+
+         e.g. double a = 5.3;
+         int b = a;  cannot be done this way (double is bigger than int)
+         int b =(int)a;   this is the correct way
+         now b = 3;
+
+         double a =5;
+         int b=(int)a; no lost data in here . Hence, there is no always loss in data during explicit casting
+
+
+       String Methods:
+        charAt();
+        length();
+        replace();
+        replaceFirst();
+        trim();
+        substring();
+        lastIndexOf();
+        indexOf();
+        equals();
+        equalsIgnoreCase();
+        isEmpty();
+        isBlank();
+        repeat();
+        toLowerCase();
+        toUpperCase();
+        endsWith();
+
