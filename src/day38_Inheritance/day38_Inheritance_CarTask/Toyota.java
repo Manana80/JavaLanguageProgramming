@@ -12,6 +12,13 @@ public class Toyota extends Car{
 
 
 
+    @Override // if we give this annotation and doesn't give compile error means it is overridden method. it is optional to give the annotation
+    public void start(){ // we can either give protected, default or public
+        System.out.println("Twist the key to ignition to start " + brand + " " + model);
+    }
+
+
+
 
 
 

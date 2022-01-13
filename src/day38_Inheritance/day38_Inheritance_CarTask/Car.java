@@ -42,11 +42,11 @@ public class Car {
         this.miles = miles;
     }
 
-    public void start () {
+    void start () { //default access modifier
         System.out.println(brand + " " + model + " is starting");
     }
 
-    public void drive (){
+     void drive (){
         System.out.println(brand + " " + model +  " is being driven");
 
     }
@@ -56,15 +56,5 @@ public class Car {
 
 
 
-    @Override
-    public String toString() {
-        return "Car{" +
-                "brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
-                ", year=" + year +
-                ", price=" + price +
-                ", color='" + color + '\'' +
-                ", miles=" + miles +
-                '}';
-    }
+
 }
