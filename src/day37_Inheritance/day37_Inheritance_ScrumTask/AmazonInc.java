@@ -1,4 +1,4 @@
-package day37_Inheritance_ScrumTask;
+package day37_Inheritance.day37_Inheritance_ScrumTask;
 /*
 Create a class named AmazonInc:
 

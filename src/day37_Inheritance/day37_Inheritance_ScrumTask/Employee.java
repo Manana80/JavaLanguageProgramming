@@ -1,4 +1,4 @@
-package day37_Inheritance_ScrumTask;
+package day37_Inheritance.day37_Inheritance_ScrumTask;
 
 public class Employee extends Person  { // not common for all person objects
     public String jobTitle;

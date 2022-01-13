@@ -1,4 +1,4 @@
-package day37_Inheritance_ScrumTask;
+package day37_Inheritance.day37_Inheritance_ScrumTask;
 
 public class Developer extends Employee{ // Developer IS An Employee, Developer Is A Person
 

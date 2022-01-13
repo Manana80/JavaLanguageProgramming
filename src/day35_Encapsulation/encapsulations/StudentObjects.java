@@ -1,4 +1,4 @@
-package encapsulations;
+package day35_Encapsulation.encapsulations;
 
 public class StudentObjects {
     public static void main(String[] args) {

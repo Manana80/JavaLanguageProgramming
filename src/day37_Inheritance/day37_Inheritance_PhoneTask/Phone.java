@@ -1,4 +1,4 @@
-package day37_Inheritance_PhoneTask;
+package day37_Inheritance.day37_Inheritance_PhoneTask;
 /*
 1. Phone Task:
 		1.1 Create a class named Phone:

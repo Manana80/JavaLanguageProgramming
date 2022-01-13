@@ -1,4 +1,4 @@
-package day37_Inheritance_PhoneTask;
+package day37_Inheritance.day37_Inheritance_PhoneTask;
 /*
 1.5 Create a class named Phone Objects and test of the sub class' objects
  */

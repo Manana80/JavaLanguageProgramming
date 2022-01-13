@@ -1,4 +1,4 @@
-package encapsulations;
+package day35_Encapsulation.encapsulations;
 
 /*
  Create a class named Student:
