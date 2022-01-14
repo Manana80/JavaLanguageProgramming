@@ -21,7 +21,7 @@ public class Square extends Shape{
     }
     public Square( double side) {
         super("Square");
-        setSide(side); // to make sure that the data given matches the condition
+        setSide(side); // to make sure that the data given matches the condition.
     }
 
 
