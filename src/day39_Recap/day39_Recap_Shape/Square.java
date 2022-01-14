@@ -24,8 +24,22 @@ public class Square extends Shape{
         setSide(side); // to make sure that the data given matches the condition.
     }
 
+    @Override
+    public double area() {
+        return side * side;
+    }
 
+    @Override
+    public double perimeter() {
+        return side * 4;
+    }
 
-
-
+    @Override
+    public String toString() {
+        return "Square{" +
+                "side=" + side +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
+                '}';
+    }
 }
