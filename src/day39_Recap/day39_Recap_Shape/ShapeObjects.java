@@ -14,6 +14,12 @@ public class ShapeObjects {
         Circle circle = new Circle(4.5);
         System.out.println(circle);
 
+        circle.setRadius(15.5);
+        System.out.println(circle);
+        System.out.println(circle.getRadius());
+
+        System.out.println(circle.getName());
+
 
     }
 }
