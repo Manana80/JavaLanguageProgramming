@@ -33,12 +33,12 @@ public double perimeter(){
         return 0;
 }
 
-
-
-
-
-
-
-
-
+    @Override
+    public String toString() {
+        return "Shape{" +
+                " name='" + name + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
+                '}';
+    }
 }
