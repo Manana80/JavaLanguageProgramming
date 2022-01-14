@@ -16,15 +16,6 @@ CydeoTask:
                 toString()
 
 
-
-
-    4. Create a sub class of Employee named Developer
-
-            Override the work method
-
-            Extra methods:
-                fixingBugs()
-
     5. Create a sub class of Employee named Teacher
 
             Override the work method
