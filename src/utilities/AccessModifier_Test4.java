@@ -1,6 +1,5 @@
 package utilities;
 
-import day34_GarbageCollection_AccessModifiers.AccessModifiers;
 import day40_Final.ProtectedAccessModifier;
 
 public class AccessModifier_Test4 extends ProtectedAccessModifier {
