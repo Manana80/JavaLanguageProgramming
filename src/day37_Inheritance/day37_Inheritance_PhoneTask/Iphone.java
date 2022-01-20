@@ -14,7 +14,8 @@ package day37_Inheritance.day37_Inheritance_PhoneTask;
 
 
  */
-public class Iphone extends Phone {
+public final  class Iphone extends Phone { // by declaring the class as final , it cannot be extended by other classes
+    // i.e. it will never be a parent
     public Iphone(String brand, String model, String size, String color, double price) {
         super("Apple", model, size, color, price);
         // when we set "Apple" it is one less code since all phones from Apple are the brand of apple. remember to take the argument brand from the IPhone constructor.

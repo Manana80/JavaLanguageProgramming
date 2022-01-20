@@ -13,7 +13,7 @@ package day37_Inheritance.day37_Inheritance_PhoneTask;
 
 
  */
-public class Nokia extends Phone{
+public final class  Nokia extends Phone{
 
     public Nokia( String model, String size, String color, double price) {
         super("Nokia", model, size, color, price);

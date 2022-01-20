@@ -14,7 +14,7 @@ package day37_Inheritance.day37_Inheritance_PhoneTask;
 
 
  */
-public class Samsung extends Phone{
+public final class Samsung extends Phone{
     public Samsung(String brand, String model, String size, String color, double price) {
         super(brand, model, size, color, price);
     }
