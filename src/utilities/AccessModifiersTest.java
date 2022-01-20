@@ -11,8 +11,6 @@ public class AccessModifiersTest {
         // private is only accessible within the class itself.
        // private is invisible and not reachable outside the class.
 
-AccessModifiers.method1();
-AccessModifiers.method2();
-//AccessModifiers.method3();  cannot be called because it is private, hence it is only visible within it's class
+
     }
 }

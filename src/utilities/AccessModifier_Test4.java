@@ -9,7 +9,8 @@ public class AccessModifier_Test4 extends ProtectedAccessModifier {
         System.out.println(AccessModifier_Test4.name2); // protected is visible in subclasses outside the package
 
 
-
+//AccessModifier_Test4.method1(); cannot be visible outside the class
+AccessModifier_Test4.method2();
 
 
 
