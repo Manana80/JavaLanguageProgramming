@@ -1,4 +1,4 @@
-package day35_Encapsulation;
+package day35_Encapsulation.encapsulations;
 /*
  Create a class named Person:
             Variables:

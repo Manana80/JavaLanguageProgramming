@@ -1,4 +1,4 @@
-package day35_Encapsulation;
+package day35_Encapsulation.encapsulations;
 /*
  create a class named CydeoStudent
             Variables:
