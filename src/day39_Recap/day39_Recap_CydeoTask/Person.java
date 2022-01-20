@@ -55,13 +55,13 @@ public class Person {
 
 
     public void eat(){
-        System.out.println(name + " is eating");
+        System.out.println(getName() + " is eating"); // why it is not getName?I corrected it. It was Name (why it didn't give error?)
     }
     public void drink (){
-        System.out.println(name + " is drinking");
+        System.out.println(getName() + " is drinking");
     }
     public void sleep(){
-        System.out.println(name + " is sleeping");
+        System.out.println(getName() + " is sleeping");
     }
 
 
