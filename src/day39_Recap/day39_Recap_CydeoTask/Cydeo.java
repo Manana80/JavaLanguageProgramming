@@ -31,7 +31,7 @@ public class Cydeo {
         System.out.println("------------------------------------------------------------------");
 
         developer.work();
-        ;
+
         tester.work();
         teacher.work();
         // student.work(); is not possible because student doesn't inherit from employy
