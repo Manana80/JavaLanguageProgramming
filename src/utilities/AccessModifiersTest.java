@@ -1,4 +1,6 @@
-package day34_GarbageCollection_AccessModifiers;
+package utilities;
+
+import day34_GarbageCollection_AccessModifiers.AccessModifiers;
 
 public class AccessModifiersTest {
     public static void main(String[] args) {
