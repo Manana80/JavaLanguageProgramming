@@ -1,5 +1,8 @@
 package day41_Exceptions;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 public class TryCatchBlock {
     public static void main(String[] args) {
         System.out.println("Test started");
@@ -53,6 +56,24 @@ since it can handle all the child classes exceptions.
         System.out.println("Test 3 completed");
 
         System.out.println("---------------------------------------------------------------------");
+
+        System.out.println("Hello");
+        try{
+            Thread.sleep(3000); // the reason why it gave us exception because the method itself from the the class Throws is already designed to give exception
+        } catch (InterruptedException e){ // we can get the Exception class by hovering over the
+            e.printStackTrace();
+        }
+        System.out.println("Cydeo");
+
+        System.out.println("-------------------------------------------------------------------------");
+
+
+try{
+    FileInputStream file = new FileInputStream("File path"); // constructor is giving us an error since it has the throws keyword
+    // it will automatically give us the checked exception, which needs to be handeled immediately
+}catch (FileNotFoundException e){
+    e.printStackTrace();
+}
 
 
 
