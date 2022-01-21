@@ -1,4 +1,4 @@
-package day37_Inheritance.day37_Inheritance_ScrumTask;
+package day29_ArrayList.day37_Inheritance.day37_Inheritance_ScrumTask;
 
 public class Tester extends Employee { // Tester IS A Employee , Tester IS A Person
     public Tester(String name, int age, char gender, String jobTitle, int id, double salary, String companyName) {

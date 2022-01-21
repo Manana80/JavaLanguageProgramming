@@ -1,4 +1,4 @@
-package day37_Inheritance.day37_Inheritance_PhoneTask;
+package day29_ArrayList.day37_Inheritance.day37_Inheritance_PhoneTask;
 /*
 	1.3 Create a sub class of Phone named Samsung:
 				Variables:

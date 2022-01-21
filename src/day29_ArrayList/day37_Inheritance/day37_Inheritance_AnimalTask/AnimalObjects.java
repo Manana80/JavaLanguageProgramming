@@ -1,4 +1,4 @@
-package day37_Inheritance.day37_Inheritance_AnimalTask;
+package day29_ArrayList.day37_Inheritance.day37_Inheritance_AnimalTask;
 
 public class AnimalObjects {
     public static void main(String[] args) {
