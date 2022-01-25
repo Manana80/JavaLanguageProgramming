@@ -11,6 +11,7 @@ public class EmployeeObjects {
         employee2.salary=115000;
 
 
+
         Employee employee3 = new Employee();
         employee3.name = "Fady";
         employee3.salary=120000;
@@ -24,7 +25,7 @@ public class EmployeeObjects {
         System.out.println(employee3.isHuman);
         System.out.println(Employee.isHuman);
 
-
+      
 
 
 

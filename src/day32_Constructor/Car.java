@@ -43,6 +43,7 @@ public class Car {
     public Car (String brand, String model, int year,double price, String color){
         this(brand, model,year,price);
         this.color = color;
+
     }
 
     public String toString() {
