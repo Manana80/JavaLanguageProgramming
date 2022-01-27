@@ -1,60 +1,24 @@
 package day42_Exceptions;
 
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class ThrowKeyword {
-    public static void main(String[] args) throws InterruptedException {
-        /*
+    public static void main(String[] args) {
+        System.out.println("Enter your age: "); // -20
+        int age = new Scanner(System.in).nextInt();
 
-                      First Solution
-        System.out.println("-------------------Test 1 -----------------------------------");
-        System.out.println("Hello");
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+      if(age<0) {
+          System.err.println("Invalid age: "+ age);
+         // the way we did it before System.exit(0);
+          throw new InputMismatchException("Age can not be negative: " + age);
+      }
+
+        if(age>21){
+            System.out.println("You are eligible");
+        } else {
+            throw new RuntimeException("You mush be at least 21 years old");
         }
-        System.out.println("Cydeo");
-        System.out.println("---------------------Test 1 completed--------------------------------");
-
-
-
-        System.out.println("------------------Test 2 --------------------------------------");
-        System.out.println("Hello");
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println("Batch 25");
-
-        System.out.println("-------------Test one completed");
-
-
-
-         */
-
-
-        // Second Solution using throw keyword after the method signature
-        System.out.println("-------------------Test 1 -----------------------------------");
-        System.out.println("Hello");
-
-            Thread.sleep(3000);
-
-        System.out.println("Cydeo");
-        System.out.println("---------------------Test 1 completed--------------------------------");
-
-
-
-        System.out.println("------------------Test 2 --------------------------------------");
-        System.out.println("Hello");
-
-            Thread.sleep(2000);
-
-        System.out.println("Batch 25");
-
-        System.out.println("-------------Test one completed");
-
-
-
 
     }
 }
