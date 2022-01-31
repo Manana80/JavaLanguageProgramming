@@ -1,15 +1,18 @@
 package day43_Abstraction.EmployeeTask;
 
-public abstract class Employee extends Person{
+public abstract class Employee extends Person {
     private final int id;
     private String jobTitle;
     private double salary;
 
     public Employee(String name, int age, char gender, int id, String jobTitle, double salary) {
         super(name, age, gender);
+        if(id<=0){
+            throw new RuntimeException("Invalid ID: " + id);
+        }
         this.id = id;
         setJobTitle(jobTitle);
-       setSalary(salary);
+        setSalary(salary);
     }
 
 
@@ -38,9 +41,9 @@ public abstract class Employee extends Person{
     public String toString() {
         return "Employee{" +
                 "name=" + getName() +
-                ", age" + getAge() +
+                ", age=" + getAge() +
                 ", gender=" + getGender() +
-                "id=" + id +
+                ", id=" + id +
                 ", jobTitle='" + jobTitle + '\'' +
                 ", salary=" + salary +
                 '}';
