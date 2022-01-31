@@ -45,7 +45,7 @@ public abstract class Employee extends Person {
                 ", gender=" + getGender() +
                 ", id=" + id +
                 ", jobTitle='" + jobTitle + '\'' +
-                ", salary=" + salary +
+                ", salary=$" + salary +
                 '}';
     }
 }
