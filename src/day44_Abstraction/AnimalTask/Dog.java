@@ -1,6 +1,6 @@
 package day44_Abstraction.AnimalTask;
 
-public final class Dog extends Animal{
+public final class Dog extends Animal implements Playable{
 
 
     public Dog(String name, String breed, char gender, int age, String size, String color) {
@@ -15,6 +15,11 @@ public final void bark(){
     System.out.println(getName() + " is barking");
 }
 
+
+
+    public void play() {
+        System.out.println(getName() + " is playing with a bone");
+    }
 }
 
 /*
