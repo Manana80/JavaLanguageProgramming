@@ -16,11 +16,10 @@ private final String name;
     public abstract double perimeter();
 
     public String toString() {
-        return getClass().getSimpleName()+ "{" +
+        return
                 "name='" + name + '\'' +
                 "area='" + area() + '\'' +
-                "perimeter='" + perimeter() + '\'' +
-                '}';
+                "perimeter='" + perimeter() + '\'' ;
 
     }
 }

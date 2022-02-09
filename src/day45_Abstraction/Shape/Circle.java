@@ -28,4 +28,12 @@ public class Circle extends Shape{
     public double perimeter() {
         return 2 * radius* pi;
     }
+
+
+    public String toString() {
+        return "Circle{" +
+                super.toString() +  // to call the string method from the parent class
+                "radius=" + radius +
+                '}';
+    }
 }
