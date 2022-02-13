@@ -20,5 +20,6 @@ public class Fibonacci {
             c=a+b;
             System.out.print(a + " ");
         }
+        scan.close();
     }
 }

@@ -1,6 +1,6 @@
 package InterviewTasksCydeo;
 /*
-Write a mehtod that returns the factorial of any given number.
+Write a method that returns the factorial of any given number.
 Ex: Input:5
     Output: 120
     // factorial = 1 * 2 * 3 * 4 * 5 =120
