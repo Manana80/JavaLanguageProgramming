@@ -16,12 +16,12 @@ public class FINRA {
 
     public static void FINRA (int num1, int num2){
         for (int i = num1; i <= num2; i++) {
-            if (i%3==0 && i%5!=0){
-                System.out.print(" FIN " + " " );
-            }else if(i%5==0 && i%3!=0){
+            if (i%15==0){
+                System.out.print(" FINRA " + " " );
+            }else if(i%5==0){
                 System.out.print(" RA " + " ");
-            }else if (i%3==0 && i%5==0){
-                System.out.print(" FINRA " + " ");
+            }else if (i%3==0){
+                System.out.print(" FIN " + " ");
             }else{
                 System.out.print(i + " ");
             }

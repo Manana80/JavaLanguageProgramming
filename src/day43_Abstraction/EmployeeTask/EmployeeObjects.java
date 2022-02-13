@@ -1,5 +1,7 @@
 package day43_Abstraction.EmployeeTask;
 
+import java.util.ArrayList;
+
 public class EmployeeObjects {
     public static void main(String[] args) {
 
@@ -18,6 +20,14 @@ public class EmployeeObjects {
         teacher.sleep();
         driver.work();
         tester.eat();
+
+
+        // How polymorphisim is applied here: day 46
+        ArrayList<Employee>cydeoEmployees = new ArrayList<>();
+        cydeoEmployees.add(tester);
+        cydeoEmployees.add(developer);
+        cydeoEmployees.add(teacher);
+        cydeoEmployees.add(driver);
 
 
 

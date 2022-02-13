@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Avanger'sPracticeHours" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/OfficeHours" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/InterviewQuestions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/InterviewQuestions " isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
