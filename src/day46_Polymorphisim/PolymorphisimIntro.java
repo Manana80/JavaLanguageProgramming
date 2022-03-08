@@ -5,7 +5,6 @@ import day39_Recap.day39_Recap_Shape.Square;
 import day43_Abstraction.EmployeeTask.Employee;
 import day43_Abstraction.EmployeeTask.Tester;
 import day44_Abstraction.AnimalTask.Animal;
-import day44_Abstraction.AnimalTask.Cat;
 import day44_Abstraction.AnimalTask.Dog;
 import day44_Abstraction.AnimalTask.Playable;
 
@@ -23,7 +22,7 @@ public class PolymorphisimIntro {
         //data have no realtionship with String (non of them except for str is a String)
 
         Object [] array = {str, n1, b2, r1, new Circle(4),new Square(9)};
-        // Object is the parent class of all classes Objec, is a generic name.
+        // Object is the parent class of all classes Object, is a generic name.
 
         /*
         driver = new ChromDriver();

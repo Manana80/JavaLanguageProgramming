@@ -80,7 +80,7 @@ public abstract class Animal {
     }
 
     public void setSize(String size) {
-        setSize(size);
+        this.size = size;
     }
 
     public String getColor() {
